@@ -1,19 +1,15 @@
 import mss
-import numpy as np
+import mss.tools
 import cv2
-import time
+import numpy as np
 import os
+import time
 
 def capture_screen(save=False):
     with mss.mss() as sct:
-        monitor = sct.monitors[1]  # full screen
-        frame = sct.grab(monitor)
+        screenshot = sct.grab(sct.monitors[1])
+        img = np.array(screenshot)
 
-        # Convert BGRA → BGR
-        img = np.array(frame)
-        img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
-
-        # Auto-save screenshot if enabled
         if save:
             os.makedirs("screenshots", exist_ok=True)
             filename = f"screenshots/{int(time.time())}.png"
