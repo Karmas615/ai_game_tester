@@ -1,0 +1,33 @@
+2026-07-24 12:03:51,093 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-24 12:03:53,036 - INFO - AI Game Tester started
+2026-07-24 12:03:53,037 - INFO - Detecting UI
+2026-07-24 12:03:53,037 - INFO - Reading text from src/images/good2.png
+2026-07-24 12:03:54,032 - INFO - OCR found 6 items
+2026-07-24 12:03:54,046 - INFO - Button clicked
+2026-07-24 12:03:54,046 - INFO - Getting game state
+2026-07-24 12:03:54,046 - INFO - Issue reported: Sample bug
+2026-07-24 12:03:56,048 - INFO - Capturing screen
+2026-07-24 12:03:56,184 - INFO - Screenshot saved to screenshots/1784909036.png
+2026-07-24 12:03:56,185 - INFO - Screen capture complete
+2026-07-24 12:08:57,764 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-24 12:08:59,642 - INFO - AI Game Tester started
+2026-07-24 12:08:59,643 - INFO - Detecting UI
+2026-07-24 12:08:59,643 - INFO - Reading text from src/images/good2.png
+2026-07-24 12:09:00,573 - INFO - OCR found 6 items
+2026-07-24 12:09:00,573 - INFO - Button clicked
+2026-07-24 12:09:00,573 - INFO - Getting game state
+2026-07-24 12:09:00,573 - INFO - Issue reported: Sample bug
+2026-07-24 12:09:02,574 - INFO - Capturing screen
+2026-07-24 12:09:02,734 - INFO - Screenshot saved to screenshots/1784909342.png
+2026-07-24 12:09:02,736 - INFO - Screen capture complete
+2026-07-24 12:12:37,863 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-24 12:12:39,830 - INFO - AI Game Tester started
+2026-07-24 12:12:39,831 - INFO - Detecting UI
+2026-07-24 12:12:39,831 - INFO - Reading text from src/images/good2.png
+2026-07-24 12:12:40,673 - INFO - OCR found 6 items
+2026-07-24 12:12:40,674 - INFO - Button clicked
+2026-07-24 12:12:40,674 - INFO - Getting game state
+2026-07-24 12:12:40,674 - INFO - Issue reported: Sample bug
+2026-07-24 12:12:42,675 - INFO - Capturing screen
+2026-07-24 12:12:42,813 - INFO - Screenshot saved to screenshots/1784909562.png
+2026-07-24 12:12:42,814 - INFO - Screen capture complete

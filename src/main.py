@@ -1,3 +1,4 @@
+from logger import log
 from capture import capture_screen
 from detect import detect_ui
 from automation import click_button
@@ -8,10 +9,9 @@ import cv2
 import time
 
 def main():
+    log("AI Game Tester started")
     print("AI Game Tester starting...")
-    
-    
-    # Run modules
+
     print(detect_ui())
     print(read_text("src/images/good2.png"))
     print(click_button())
@@ -20,12 +20,10 @@ def main():
 
     time.sleep(2)
 
-    #Capture screen
     frame = capture_screen(save=True)
     cv2.imshow("test", frame)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-    
 
 if __name__ == "__main__":
     main()
