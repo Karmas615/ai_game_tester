@@ -15,3 +15,5 @@ def read_text(path, min_conf=0.49):
 
 
 
+
+

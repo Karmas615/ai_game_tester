@@ -5,6 +5,7 @@ from state_machine import get_state
 from reporter import report_issue
 from ocr_module import read_text
 import cv2
+import time
 
 def main():
     print("AI Game Tester starting...")
@@ -17,7 +18,9 @@ def main():
     print(get_state())
     print(report_issue("Sample bug"))
 
-    # Capture screen
+    time.sleep(2)
+
+    #Capture screen
     frame = capture_screen(save=True)
     cv2.imshow("test", frame)
     cv2.waitKey(0)
