@@ -11,7 +11,20 @@ def read_text(path, min_conf=0.49):
 
     for (bbox, text, prob) in result:
         if prob >= min_conf:
-            output.append((bbox, text, prob))
+
+            # Convert bbox → Python floats
+            bbox_py = []
+            for point in bbox:
+                bbox_py.append([float(x) for x in point])
+
+            # Convert prob → Python float
+            prob_py = float(prob)
+
+            output.append({
+                "bbox": bbox_py,
+                "text": text,
+                "confidence": prob_py
+            })
 
     log(f"OCR found {len(output)} items")
     return output

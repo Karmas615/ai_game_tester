@@ -31,3 +31,118 @@
 2026-07-24 12:12:42,675 - INFO - Capturing screen
 2026-07-24 12:12:42,813 - INFO - Screenshot saved to screenshots/1784909562.png
 2026-07-24 12:12:42,814 - INFO - Screen capture complete
+2026-07-26 16:27:02,157 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:29:40,263 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:30:33,433 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:30:35,378 - INFO - AI Game Tester started
+2026-07-26 16:30:35,379 - INFO - Detecting UI
+2026-07-26 16:30:35,380 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:30:36,446 - INFO - OCR found 6 items
+2026-07-26 16:30:36,447 - INFO - Button clicked
+2026-07-26 16:30:36,447 - INFO - Getting game state
+2026-07-26 16:30:36,447 - INFO - Issue reported: Sample bug
+2026-07-26 16:30:38,448 - INFO - Capturing screen
+2026-07-26 16:30:38,603 - INFO - Screenshot saved to screenshots/1785097838.png
+2026-07-26 16:30:38,604 - INFO - Screen capture complete
+2026-07-26 16:30:43,499 - INFO - Detecting UI
+2026-07-26 16:30:43,500 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:30:44,372 - INFO - OCR found 6 items
+2026-07-26 16:30:44,373 - INFO - Button clicked
+2026-07-26 16:30:44,373 - INFO - Getting game state
+2026-07-26 16:30:44,373 - INFO - Issue reported: Sample bug
+2026-07-26 16:31:32,796 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:31:34,513 - INFO - AI Game Tester started
+2026-07-26 16:31:34,513 - INFO - Detecting UI
+2026-07-26 16:31:34,513 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:31:35,321 - INFO - OCR found 6 items
+2026-07-26 16:31:35,321 - INFO - Button clicked
+2026-07-26 16:31:35,321 - INFO - Getting game state
+2026-07-26 16:31:35,322 - INFO - Issue reported: Sample bug
+2026-07-26 16:31:37,322 - INFO - Capturing screen
+2026-07-26 16:31:37,470 - INFO - Screenshot saved to screenshots/1785097897.png
+2026-07-26 16:31:37,471 - INFO - Screen capture complete
+2026-07-26 16:31:38,624 - INFO - Detecting UI
+2026-07-26 16:31:38,624 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:31:39,517 - INFO - OCR found 6 items
+2026-07-26 16:31:39,518 - INFO - Button clicked
+2026-07-26 16:31:39,518 - INFO - Getting game state
+2026-07-26 16:31:39,518 - INFO - Issue reported: Sample bug
+2026-07-26 16:33:41,155 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:33:42,902 - INFO - AI Game Tester started
+2026-07-26 16:33:42,902 - INFO - Detecting UI
+2026-07-26 16:33:42,903 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:33:43,741 - INFO - OCR found 6 items
+2026-07-26 16:33:43,742 - INFO - Button clicked
+2026-07-26 16:33:43,742 - INFO - Getting game state
+2026-07-26 16:33:43,742 - INFO - Issue reported: Sample bug
+2026-07-26 16:33:45,743 - INFO - Capturing screen
+2026-07-26 16:33:45,903 - INFO - Screenshot saved to screenshots/1785098025.png
+2026-07-26 16:33:45,905 - INFO - Screen capture complete
+2026-07-26 16:33:46,643 - INFO - Detecting UI
+2026-07-26 16:33:46,643 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:33:47,566 - INFO - OCR found 6 items
+2026-07-26 16:33:47,566 - INFO - Button clicked
+2026-07-26 16:33:47,567 - INFO - Getting game state
+2026-07-26 16:33:47,567 - INFO - Issue reported: Sample bug
+2026-07-26 16:36:31,639 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:36:33,882 - INFO - AI Game Tester started
+2026-07-26 16:36:33,882 - INFO - Detecting UI
+2026-07-26 16:36:33,882 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:36:34,819 - INFO - OCR found 6 items
+2026-07-26 16:36:34,820 - INFO - Button clicked
+2026-07-26 16:36:34,820 - INFO - Getting game state
+2026-07-26 16:36:34,820 - INFO - Issue reported: Sample bug
+2026-07-26 16:36:36,821 - INFO - Capturing screen
+2026-07-26 16:36:36,977 - INFO - Screenshot saved to screenshots/1785098196.png
+2026-07-26 16:36:36,978 - INFO - Screen capture complete
+2026-07-26 16:36:38,108 - INFO - Detecting UI
+2026-07-26 16:36:38,108 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:36:39,150 - INFO - OCR found 6 items
+2026-07-26 16:36:39,150 - INFO - Button clicked
+2026-07-26 16:36:39,150 - INFO - Getting game state
+2026-07-26 16:36:39,150 - INFO - Issue reported: Sample bug
+2026-07-26 16:38:47,936 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:38:49,660 - INFO - AI Game Tester started
+2026-07-26 16:38:49,660 - INFO - Detecting UI
+2026-07-26 16:38:49,661 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:38:50,489 - INFO - OCR found 6 items
+2026-07-26 16:38:50,489 - INFO - Button clicked
+2026-07-26 16:38:50,489 - INFO - Getting game state
+2026-07-26 16:38:50,489 - INFO - Issue reported: Sample bug
+2026-07-26 16:38:50,489 - INFO - Capturing screen
+2026-07-26 16:38:50,634 - INFO - Screenshot saved to screenshots/1785098330.png
+2026-07-26 16:38:50,635 - INFO - Screen capture complete
+2026-07-26 16:39:40,117 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:39:41,824 - INFO - AI Game Tester started
+2026-07-26 16:39:41,825 - INFO - Detecting UI
+2026-07-26 16:39:41,825 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:39:42,667 - INFO - OCR found 6 items
+2026-07-26 16:39:42,667 - INFO - Button clicked
+2026-07-26 16:39:42,667 - INFO - Getting game state
+2026-07-26 16:39:42,667 - INFO - Issue reported: Sample bug
+2026-07-26 16:39:44,668 - INFO - Capturing screen
+2026-07-26 16:39:44,785 - INFO - Screenshot saved to screenshots/1785098384.png
+2026-07-26 16:39:44,787 - INFO - Screen capture complete
+2026-07-26 16:39:45,594 - INFO - Detecting UI
+2026-07-26 16:39:45,595 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:39:46,446 - INFO - OCR found 6 items
+2026-07-26 16:39:46,446 - INFO - Button clicked
+2026-07-26 16:39:46,446 - INFO - Getting game state
+2026-07-26 16:39:46,446 - INFO - Issue reported: Sample bug
+2026-07-26 16:40:13,198 - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-07-26 16:40:14,995 - INFO - AI Game Tester started
+2026-07-26 16:40:14,995 - INFO - Detecting UI
+2026-07-26 16:40:14,995 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:40:15,833 - INFO - OCR found 6 items
+2026-07-26 16:40:15,834 - INFO - Button clicked
+2026-07-26 16:40:15,834 - INFO - Getting game state
+2026-07-26 16:40:15,834 - INFO - Issue reported: Sample bug
+2026-07-26 16:40:17,835 - INFO - Capturing screen
+2026-07-26 16:40:17,956 - INFO - Screenshot saved to screenshots/1785098417.png
+2026-07-26 16:40:17,957 - INFO - Screen capture complete
+2026-07-26 16:40:19,525 - INFO - Detecting UI
+2026-07-26 16:40:19,525 - INFO - Reading text from src/images/good2.png
+2026-07-26 16:40:20,334 - INFO - OCR found 6 items
+2026-07-26 16:40:20,334 - INFO - Button clicked
+2026-07-26 16:40:20,334 - INFO - Getting game state
+2026-07-26 16:40:20,334 - INFO - Issue reported: Sample bug
