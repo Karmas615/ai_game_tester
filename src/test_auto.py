@@ -24,4 +24,3 @@ pyautogui.mouseUp()
 pyautogui.write("Hello")
 pyautogui.press("enter")
 pyautogui.press("space")
-

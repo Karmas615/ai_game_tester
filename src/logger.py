@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler
 
 handler = RotatingFileHandler(
     "game_tester.log",
-    maxBytes=500000,
+    maxBytes=100000,
     backupCount=5
 )
 

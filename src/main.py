@@ -8,35 +8,58 @@ from ocr_module import read_text
 import cv2
 import time
 from json_storage import save_results
+import threading
+
+
+# -----------------------------
+# Threaded loop: capture WHILE analyzing
+# -----------------------------
+def pipeline_loop(run_time=5):
+    start = time.time()
+
+    while time.time() - start < run_time:
+        # 1. Capture ONCE per cycle (not nonstop)
+        frame = capture_screen(save=True)
+
+        # 2. Analyze the captured frame
+        ui = detect_ui()
+
+        ocr = read_text(frame)
+        clicked = click_button()
+        state = get_state()
+        bug = report_issue("Sample bug")
+
+        # 3. Display the frame
+        cv2.imshow("AI Game Tester", frame)
+        cv2.waitKey(1)
+
+        # 4. Save results
+        result = {
+            "ui": ui,
+            "ocr": ocr,
+            "clicked": clicked,
+            "state": state,
+            "bug": bug,
+            "time": time.time()
+        }
+        save_results(result)
+
+        # 5. Small delay so it doesn’t spam screenshots
+        time.sleep(0.5)
 
 
 def main():
     log("AI Game Tester started")
     print("AI Game Tester starting...")
 
-    print(detect_ui())
-    print(read_text("src/images/good2.png"))
-    print(click_button())
-    print(get_state())
-    print(report_issue("Sample bug"))
+    # Run your pipeline in a thread
+    t = threading.Thread(target=pipeline_loop, args=(5,))
+    t.start()
 
-    time.sleep(2)
+    t.join()
 
-    frame = capture_screen(save=True)
-    cv2.imshow("test", frame)
-    cv2.waitKey(0)
     cv2.destroyAllWindows()
-
-    result = {
-    "ui": detect_ui(),
-    "ocr": read_text("src/images/good2.png"),
-    "clicked": click_button(),
-    "state": get_state(),
-    "bug": report_issue("Sample bug"),
-    "time": time.time()
-}
-
-    save_results(result)
+    print("AI Game Tester finished.")
 
 
 if __name__ == "__main__":
