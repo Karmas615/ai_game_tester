@@ -1,4 +1,3 @@
-
 from logger import log
 from capture import capture_screen
 from detect import detect_ui

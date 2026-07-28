@@ -10,19 +10,25 @@ import time
 from json_storage import save_results
 import threading
 
-
 # -----------------------------
 # Threaded loop: capture WHILE analyzing
 # -----------------------------
 def pipeline_loop(run_time=5):
     start = time.time()
 
+    time.sleep(4)
+
     while time.time() - start < run_time:
         # 1. Capture ONCE per cycle (not nonstop)
-        frame = capture_screen(save=True)
+        frame = capture_screen(save=False)
+        timestamp = int(time.time())
+        cv2.imwrite(f"screenshots/before_{timestamp}.png", frame)
 
         # 2. Analyze the captured frame
-        ui = detect_ui()
+        ui = detect_ui(frame)
+        for (x, y, w, h) in ui:
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 0), 4)
+        cv2.imwrite(f"screenshots/after_{timestamp}.png", frame)
 
         ocr = read_text(frame)
         clicked = click_button()
@@ -64,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
